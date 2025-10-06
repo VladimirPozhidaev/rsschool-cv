@@ -37,14 +37,17 @@ Now I´m lookig for software developer job and ajusting my skills accordingly.
 
 ## Code example:
   ```
-function truncate(str, maxlength) {
-  let newStr;
-  if (str.length > maxlength) {
- newStr = str.slice(0, maxlength - 3) + "...";
- return newStr;
-  }
-  return str;
-} 
+const express = require("express");
+const api = new express();
+api.use(express.json());
+api.post("/registro", (req, res) => {
+    const mensaje = req.body.mensaje;
+    const nombre = req.body.nombre;
+    const email = req.body.email;
+    res.json({
+        "message": mensaje + " data received!", nombre, email
+    });
+}); 
 ``` 
 
 ## Education
