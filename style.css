@@ -1,0 +1,20 @@
+div {color:red;
+padding: 18px;
+border: 2px solid ;
+margin-top: 40px;}
+#username {
+    color:rgb(119, 0, 255);
+    font-size: 30px;
+}
+
+.spancls{
+    color:rgb(33, 116, 12);
+    font-size: 20px;
+    border: 1px solid burlywood;
+
+}
+
+.divalt,  .divalt333 {color:rgb(0, 17, 255);
+    padding: 1px;
+    border: 2px solid ;
+    margin-top: 4px;}
